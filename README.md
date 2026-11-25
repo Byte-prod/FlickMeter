@@ -9,7 +9,7 @@ FlickMeter 是一款适用于 Windows 10/11 x64 的轻量游戏性能浮窗。�
 ## 功能
 
 - 实时显示 FPS、1% Low、CPU 与 GPU 占用率和温度，以及内存占用率。
-- 双显卡电脑会优先显示当前游戏使用的 GPU。已在 NVIDIA GeForce RTX 4060 Laptop GPU 和 AMD Radeon 780M Graphics 上验证 GPU 占用率与温度采集。
+- 双显卡电脑会优先显示当前游戏使用的 GPU。GPU 占用率与温度采集已在英伟达和 AMD 显卡上得到验证。
 - 数值变化时保持浮窗宽度稳定。支持横版、竖版、缩放、透明度和鼠标穿透。
 - 可在托盘菜单中开启开机自启动，程序会在登录 Windows 后打开。
 
