@@ -1,10 +1,10 @@
 # FlickMeter
 
-FlickMeter 是一款适用于 Windows 10/11 x64 的轻量游戏性能浮窗。当前发布为 **v1.0.0**，下载单个 EXE 即可运行。
+FlickMeter 是一款适用于 Windows 10/11 x64 的轻量游戏性能浮窗。当前发布为 **v1.0.0**，下载 ZIP 并完整解压后即可运行。
 
 ## 下载
 
-[下载最新版 FlickMeter.exe](https://github.com/Byte-prod/FlickMeter/releases/latest/download/FlickMeter.exe) · [v1.0.0 发布说明](https://github.com/Byte-prod/FlickMeter/releases/tag/v1.0.0) · [查看版本记录](https://github.com/Byte-prod/FlickMeter/releases)
+[下载 FlickMeter-1.0.0-win-x64.zip](https://github.com/Byte-prod/FlickMeter/releases/latest/download/FlickMeter-1.0.0-win-x64.zip) · [v1.0.0 发布说明](https://github.com/Byte-prod/FlickMeter/releases/tag/v1.0.0) · [查看版本记录](https://github.com/Byte-prod/FlickMeter/releases)
 
 ## 功能
 
@@ -16,7 +16,7 @@ FlickMeter 是一款适用于 Windows 10/11 x64 的轻量游戏性能浮窗。�
 
 ## 使用方法
 
-1. 运行 `FlickMeter.exe`。如果 Windows 请求管理员授权，允许后即可采集游戏帧率。
+1. 下载 ZIP 并完整解压，打开解压出的 `FlickMeter` 文件夹，运行 `FlickMeter.exe`。请将 `PresentMon.exe` 与它放在同一目录。如果 Windows 请求管理员授权，允许后即可采集游戏帧率。
 2. 启动游戏并将游戏窗口切到前台。建议使用窗口化或无边框全屏模式，方便显示浮窗。
 3. 右键点击系统托盘中的 FlickMeter 图标，或在关闭鼠标穿透时右键点击浮窗。在「显示数据」中可单独开关指标，也可通过菜单调整布局和开机自启动。开启或关闭鼠标穿透时菜单保持打开，点击菜单外可关闭。
 
