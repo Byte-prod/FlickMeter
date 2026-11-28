@@ -35,9 +35,17 @@ FlickMeter/
 
 遇到问题时请提供 Windows 版本、显卡型号、驱动版本、游戏名称及窗口模式。[提交 Issue](https://github.com/Byte-prod/FlickMeter/issues/new)
 
-## 源码
+## 源码与构建
 
-发布页里的 `Source code (zip)` 和 `Source code (tar.gz)` 由 GitHub 按发布标签生成，内容来自该标签下的仓库文件。当前 `v1.0.0` 标签收录的是说明文档。
+仓库的 [source](source/) 目录包含与 v1.0.0 发布包对应的 C# 源码和构建脚本。也可在发布页下载 GitHub 生成的源码压缩包。[v1.0.0 发布页](https://github.com/Byte-prod/FlickMeter/releases/tag/v1.0.0)
+
+在 Windows PowerShell 中打开仓库根目录，运行以下命令。脚本使用系统的 64 位 .NET Framework C# 编译器。
+
+```powershell
+.\source\Build.ps1
+```
+
+默认输出为 `source\build\FlickMeter.exe`。运行自行编译的程序时，把 Intel PresentMon 2.6.0 x64 版命名为 `PresentMon.exe`，放到主程序所在目录。也可使用发布运行包中的同名文件。
 
 ## 第三方组件
 
